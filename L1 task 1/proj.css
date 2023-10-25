@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: dimgrey;
+    background-image: url(https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers_181624-9331.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4387e794;
+    color: rgb(133, 132, 132);
+    padding: 10px 0;
+    background-image: url(file:///C:/Users/pc/Desktop/New%20folder/Logo%202.png);
+    background-position: 1220px;
+    background-repeat: no-repeat;
+    background-size: 110px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #16a2e8; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff; 
+}
+
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ff7043;
+}
+footer{
+    color: azure;
+}
+.container ul{
+    color: black;
+}
